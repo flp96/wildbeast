@@ -32,6 +32,30 @@ img {
     "footer footer footer";
 }
 
+@media (max-width: 1200px) {
+    .estrutura {
+        grid-template-areas: 
+        "header header header"
+        "sidenav content content"
+        "sidenav anuncios anuncios"
+        "footer footer footer"
+        ;
+    }
+}
+
+@media (max-width: 760px) {
+    .estrutura {
+        grid-template-columns: 100%;
+        
+        grid-template-areas: 
+        "header"
+        "sidenav"
+        "content"
+        "anuncios"
+        "footer"
+    }
+}
+
 /* Header */
 
 .header {
@@ -112,7 +136,7 @@ img {
 
 .imagem-1 {
     grid-row: span 2;
-    align-self: end;
+    align-self: end;    
 }
 
 .imagem-2 {
@@ -175,7 +199,6 @@ p {
 }
 
 .numero {
-    color: #8844ee;
     font-size: 3em;
     line-height: 1;
     margin: 10px auto;
