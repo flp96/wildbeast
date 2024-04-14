@@ -67,6 +67,15 @@ img {
     align-items: center;
 }
 
+@media (max-width: 600px) {
+    .logo {
+        margin: 0 auto;
+    }
+    .header nav ul {
+        justify-content: center;
+    }
+}
+
 .logo {
     max-width: 200px;
 }
@@ -221,6 +230,13 @@ p {
     color: #B07DFB;
 }
 
+@media (max-width: 600px) {
+    .titulo {
+        margin: 0 auto;
+        font-size: 1.4em;
+    }
+}
+
 .titulo h1 {
     font-size: 3.75em;
     line-height: 1;
@@ -237,6 +253,12 @@ p {
 .caracteristicas {
     display: flex;
     align-items: flex-start;
+}
+
+@media (max-width: 600px) {
+    .caracteristicas {
+        margin: 0 auto;
+    }
 }
 
 .caracteristicas > div {
@@ -275,6 +297,13 @@ p {
     font-size: 0.875em;
     color: #B07DFB;
     max-width: 16em;
+}
+
+@media (max-width: 600px) {
+    .destaque {
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
 }
 
 .citacao, .atributos {
